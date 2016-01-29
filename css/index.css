@@ -1,0 +1,276 @@
+body{
+	margin:0;
+	font-family: "微软雅黑";
+	min-width: 980px;
+	/*cursor: pointer;*/
+}
+h1,h2,h3,h4,h5,h6,li,ul{
+	margin:0;
+	padding:0;
+	list-style: none;	
+}
+/*-----------------头部-----------------*/
+.header{
+	background: #f5f5f5;
+	padding: 15px 0;
+}
+.header-c{
+	height: 28px;
+	line-height: 28px;
+}
+.logo{
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	margin-right: 10px;
+	-webkit-trangition:all 0.4 ease;
+}
+.logo:hover{
+     color:blue;
+     cursor: pointer;
+}
+.search{
+	width: 360px;
+	padding-left:15px;
+	color: #ccc;
+	font-size: 13px;
+	float: left;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	background: #fff;
+	margin-right:10px;
+}
+
+/*后代*/
+.functionlist{
+	float: left;
+}
+.functionlist li{
+	float: left;
+	padding:0 5px;
+	font-size: 13px;
+	font-weight:normal;
+	-webkit-transition:all 0.4 ease;
+}
+.functionlist li:hover{
+	color:#4078c0; 
+	cursor: pointer;
+}
+.signin,.signup{
+	height: 25px;
+	float:right;
+	padding: 6px 12px;
+	border: 1px solid #ccc;
+	font-size:13px;
+	border-radius: 6px;
+	margin-top: -5px;
+}
+.signin{
+	  background-image: linear-gradient(#fcfcfc, #eee);
+	  margin-left: 10px;
+	  color: black;
+	  -webkit-transition:all 0.4 ease;
+}
+.signin:hover{
+	background:#d5d5d5;
+	cursor: pointer;
+}
+.signup{
+    color:#fff;
+	background-image: linear-gradient(#8add6d, #60b044);
+	-webkit-transition:all 0.4 ease;
+}
+.signup:hover{
+	background: #60b044;
+	cursor: pointer;
+}
+.section{
+	padding: 80px 0;
+	border-bottom: 1px solid #ccc;
+}
+.container{
+	width: 980px;
+	margin:0 auto;
+	/*border: 2px solid green;	*/
+}
+
+.sub-title{
+	font-size: 42px;
+	text-align: center;
+	font-weight: normal;
+}
+.sub-into{
+	color: #767676;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 15px;
+}
+a{
+	text-decoration: none;
+	-webkit-transition:all 0.4 ease;
+}
+a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+/*------------------------------第一块----------------------------*/
+.main{
+	background:black;   /*#202020 url("")center;*/
+}
+.main-c{
+	height: 351px;
+}
+.main-intor{
+	color: #f5f5f5;
+	/*border: 1px solid red;*/
+    width: 620px;
+    float: left;
+}
+.big-tittle{
+	font-size: 70px;
+	padding-top: 10px;
+	margin-bottom:15px; 
+	font-weight: normal;
+}
+.main-intor p{
+	font-size: 21px;
+	line-height:1.5;
+}
+
+.signup-form{
+	width: 320px;
+	height: 351px;
+	/*border:1px solid white;*/
+	float: right;
+	color: #f5f5f5;
+	font-size: 16px;
+}
+.text{
+	width: 300px;
+	height: 44px;
+	/*border: 1px solid blue;*/
+	margin-bottom: 10px;
+	border-radius: 6px;
+	/*margin-left: 20px;*/
+	font-size: 16px;
+	background: #f5f5f5;
+	color:#ccc;	
+}
+.text-r p{
+    padding: 10px;
+}
+.text-j{
+ 	background-image: linear-gradient(#8add6d, #60b044);
+ 	font-size: 16px;
+ 	color: white;
+ 	text-align: center;
+ 	-webkit-transition:all 0.4 ease;
+}
+.text-j:hover{
+	background: #60b044;
+	cursor: pointer;
+}
+.text-j p{
+	padding: 10px;
+}
+.a{
+	font-size: 13px;
+	color: #767676;
+}
+/*--------------------------第二块-------------------------*/
+.enterprise{
+	background-image:linear-gradient(#202d5f,#614381); 
+	height: 185px;
+}
+.hidden{
+	height:265px; 
+	overflow: hidden;
+	text-align: center;
+	/*margin: 40px auto;*/
+}
+.enterprise h2{
+	color:#f5f5f5; 
+}
+/*按钮属性*/
+/*TODO:待优化*/
+.btn{
+	text-align:center;
+	color: #f5f5f5;
+	font-size: 18px;
+	padding: 12px 20px;
+	border-radius: 6px;
+	/*border: 1px solid black;*/
+}
+.btn-blue{
+	/*width: 346px;*/
+	margin:12px auto;
+	display: inline-block;
+	background-image:linear-gradient(#45b3f3,#1d6ac8); 
+	-webkit-transition:all 0.4 ease;
+}
+.btn-blue:hover{
+	background: #1d6ac8;
+	cursor: pointer;
+}
+.gh-image{
+	width: 100%;
+	margin-top:10px;
+	background-image: linear-gradient(#202d5f, #614381);
+	box-shadow: 2px 4px 6px #ccc,-2px -4px 6px #ccc;
+}
+/*TODO:待优化(浮动的收缩问题)*/
+.love{
+	height: 670px;
+}
+/*------------------第三块---------------------*/
+.love-reason{
+	width: 488px;
+	height: 280px;
+	/*border: 1px solid black;*/
+	float: left;
+	text-align: center;
+}
+.l-img{
+	width: 104px;
+	height: 104px;
+	/*border: 1px solid black;*/
+	border-radius: 50%;
+	margin:0 auto;
+}
+.btn-green{
+	width: 287px;
+	margin:12px auto;
+	background-image:linear-gradient(#8add6d,#60b044);
+	-webkit-transition:all 0.4 ease;
+}
+.btn-green:hover{
+	background: #60b044;
+	cursor: pointer;
+}
+.sub-into-j{
+	color: black;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+/*--------------第四块---------------*/
+.footer{
+	height: 18px;
+	line-height: 18px;
+}
+.footer-j li{
+	font-size: 12px;
+	float:left;
+	margin-right: 8px;
+}
+.footer-k li{
+	font-size: 12px;
+	float: right;
+	margin-right: 10px;
+}
+.mao{
+	float: left;
+	padding: 0 80px;
+	margin-left: 90px;
+}
